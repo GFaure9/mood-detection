@@ -23,15 +23,16 @@ test Convolutional Neural Networks to perform human facial expression classifica
 
 Feel free to fork it and make your own changes/improvements (and eventually create a pull request).
 
----
+
 ## Prerequisites/Dependencies
 
-- Python 3.10 or higher (this is what I used but probably older versions also work, typically >=3.8)
+- Python 3.10 or higher (this is what I used but older versions probably also work, typically >=3.8)
 
 List of needed dependencies:
 - TensorFlow (for all the DL pipelines)
 - OpenCV (to modify/visualize images)
 - Matplotlib (not mandatory, to plot curves...)
+
 
 ## Installation
 
@@ -51,7 +52,7 @@ pip install -r requirements.txt
 > Original dataset from [https://www.kaggle.com/samaneheslamifar](https://www.kaggle.com/samaneheslamifar).
 > You can download it directly at: [https://www.kaggle.com/datasets/samaneheslamifar/facial-emotion-expressions](https://www.kaggle.com/datasets/samaneheslamifar/facial-emotion-expressions).
 
----
+
 ## About the project...
 
 Some insights about implemented objects (in [src](./src)):
