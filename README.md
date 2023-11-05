@@ -58,8 +58,8 @@ pip install -r requirements.txt
 Some insights about implemented objects (in [src](./src)):
 - `CNN`: main class to define, build and train a CNN using TensorFlow lib through Keras API
 - `DataFacesImages`: main class to build training and test datasets from faces images database
-- `Pipeline`: class defining pipelines to run for building, training and testing face expression classification models.
-- `create_downsampled_datasets(_input_path, output_path sample_size_)`: function that creates a new folder from a chosen folder, with the same sub-folders but keeping only a given number of files in each sub-folder.
+- `Pipeline`: class defining pipelines to run for building, training and testing face expression classification models
+- `create_downsampled_datasets(_input_path, output_path sample_size_)`: function that creates a new folder from a chosen folder, with the same sub-folders but keeping only a given number of files in each sub-folder
 
-In [exploration][./exploration] a Jupyter Notebook was started to start testing and using these objects and
+In [exploration](./exploration) a Jupyter Notebook was started to start testing and using these objects and
 find the best configuration for the CNN.
