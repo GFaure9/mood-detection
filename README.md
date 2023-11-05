@@ -3,36 +3,17 @@
 This repository contains a project with the aim of building a _simple_ CNN to classify faces images
 into 7 expressions categories:
 
-<div style="display: flex; flex-direction: row;">
-    <div style="margin-right: 50px;">
-        <img src="./datasets/test/angry/2486.jpg">
-        <p>Angry</p>
-    </div>
-    <div style="margin-right: 50px;">
-        <img src="./datasets/test/disgust/7835.jpg">
-        <p>Disgust</p>
-    </div>
-    <div style="margin-right: 50px;">
-        <img src="./datasets/test/fear/1367.jpg">
-        <p>Fear</p>
-    </div>
-    <div style="margin-right: 50px;">
-        <img src="./datasets/test/happy/80.jpg">
-        <p>Happy</p>
-    </div>
-    <div style="margin-right: 50px;">
-        <img src="./datasets/test/sad/2418.jpg">
-        <p>Sad</p>
-    </div>
-        <div style="margin-right: 50px;">
-        <img src="./datasets/test/surprise/435.jpg">
-        <p>Surprise</p>
-    </div>
-    <div style="margin-right: 50px;">
-        <img src="./datasets/test/neutral/2761.jpg">
-        <p>Neutral</p>
-    </div>
-</div>
+| Angry         | Disgust       | Fear          | Happy         | Sad           | Surprise      | Neutral       |
+|---------------|---------------|---------------|---------------|---------------|---------------|---------------|
+| ![Image 1][1] | ![Image 2][2] | ![Image 3][3] | ![Image 4][4] | ![Image 5][5] | ![Image 6][6] | ![Image 7][7] |
+
+[1]: ./datasets/test/angry/2486.jpg
+[2]: ./datasets/test/disgust/7835.jpg
+[3]: ./datasets/test/fear/1367.jpg
+[4]: ./datasets/test/happy/80.jpg
+[5]: ./datasets/test/sad/2418.jpg
+[6]: ./datasets/test/surprise/435.jpg
+[7]: ./datasets/test/neutral/2761.jpg
 
 It uses as train/test data the following [Kaggle.com](https://www.kaggle.com/) dataset: [Facial Emotion Expressions](https://www.kaggle.com/datasets/samaneheslamifar/facial-emotion-expressions).
 
