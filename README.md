@@ -1,14 +1,42 @@
 # Building CNNs for __Facial Expression Recognition__
 
----
-
 This repository contains a project with the aim of building a _simple_ CNN to classify faces images
-into 7 expressions categories: "angry", "disgust", "fear", "happy", "sad", "surprise and "neutral".\
+into 7 expressions categories:
+
+<div style="display: flex; flex-direction: row;">
+    <div style="margin-right: 50px;">
+        <img src="./datasets/test/angry/2486.jpg">
+        <p>Angry</p>
+    </div>
+    <div style="margin-right: 50px;">
+        <img src="./datasets/test/disgust/7835.jpg">
+        <p>Disgust</p>
+    </div>
+    <div style="margin-right: 50px;">
+        <img src="./datasets/test/fear/1367.jpg">
+        <p>Fear</p>
+    </div>
+    <div style="margin-right: 50px;">
+        <img src="./datasets/test/happy/80.jpg">
+        <p>Happy</p>
+    </div>
+    <div style="margin-right: 50px;">
+        <img src="./datasets/test/sad/2418.jpg">
+        <p>Sad</p>
+    </div>
+        <div style="margin-right: 50px;">
+        <img src="./datasets/test/surprise/435.jpg">
+        <p>Surprise</p>
+    </div>
+    <div style="margin-right: 50px;">
+        <img src="./datasets/test/neutral/2761.jpg">
+        <p>Neutral</p>
+    </div>
+</div>
+
 It uses as train/test data the following [Kaggle.com](https://www.kaggle.com/) dataset: [Facial Emotion Expressions](https://www.kaggle.com/datasets/samaneheslamifar/facial-emotion-expressions).
 
----
-
-This project is a work in progress and is not yet completed.\
+This project is a __work in progress__ and is not yet completed.\
 However, it provides a basis Python framework to prepare Kaggle's downloaded data and to customize, build, train and 
 test Convolutional Neural Networks to perform human facial expression classification on images.
 
