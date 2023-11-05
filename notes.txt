@@ -1,0 +1,5 @@
+Video on gradient descent:
+https://www.youtube.com/watch?v=jc2IthslyzM&ab_channel=TheCodingTrain
+
+Instructive GitHub page about CNNs:
+https://github.com/mingruimingrui/Convolution-neural-networks-made-easy-with-keras
